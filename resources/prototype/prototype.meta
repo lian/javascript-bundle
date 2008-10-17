@@ -1,0 +1,12 @@
+name: prototype
+desc: Prototype is a JavaScript Framework that aims to ease development of dynamic web applications. - Featuring a unique, easy-to-use toolkit for class-driven development and the nicest Ajax library around, Prototype is quickly becoming the codebase of choice for web application developers everywhere.
+dependencies: []
+homepage: http://www.prototypejs.org
+versions:
+ - 1.5
+ - 1.5.1.2
+ - 1.6
+ - 1.6.0.3
+env:
+ dev:
+  - prototype-src.js
