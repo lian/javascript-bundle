@@ -1,0 +1,10 @@
+name: jquery.pngFix
+desc: This plugin will fix the missing PNG-Transparency in Windows Internet Explorer 5.5 & 6.
+dependencies: 
+ - jquery
+homepage: http://jquery.andreaseberhard.de/pngFix/
+versions:
+ - "1.1"
+env:
+ dev:
+  - pngFix-min.js
