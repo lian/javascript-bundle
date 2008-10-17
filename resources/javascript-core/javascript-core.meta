@@ -1,0 +1,8 @@
+name: javascript-core
+desc: old but sometimes useful bundle of javascript functions
+dependencies: []
+versions:
+ - trunk
+env:
+ cookies:
+  - cookies.js
