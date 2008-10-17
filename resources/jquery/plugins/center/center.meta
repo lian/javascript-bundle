@@ -1,0 +1,11 @@
+name: jquery.center
+desc: This plugin center any element in page, horizontal and vertical using the css minus margin method.
+dependencies: 
+ - jquery
+homepage: http://plugins.jquery.com/project/elementcenter
+versions:
+ - "1.0"
+env:
+ dev:
+  - jquery.center.js
+
