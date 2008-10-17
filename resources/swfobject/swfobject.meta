@@ -1,0 +1,8 @@
+name: swfobject
+desc: Flash Player detection and embed - SWFObject is the SWF embed script formerly known as FlashObject. The name was changed for legal reasons.
+dependencies: []
+versions:
+ - 1.4.4
+env:
+ dev:
+  - swfobject.js
