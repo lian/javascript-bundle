@@ -1,0 +1,59 @@
+#### jquery.rb - jquery dsl for ruby
+
+
+
+## Notes & Ideas
+# there is no need for this dsl today, but here a some ideas..
+
+JQuery.ready do |dom|
+  dom.get("a").click { |this| JQuery.alert("Hello World") }
+end.to_jquery
+
+JQuery.ready do |js|
+  js.get("a").click { js.alert("Hello World") }
+end.to_jquery
+
+JQuery.ready do
+  JQuery.get("a").click do |this|
+    JQuery.alert("Hello World")
+  end
+end.to_jquery
+
+$(document).ready(function() {
+   $("a").click(function() {
+     alert("Hello world!");
+   });
+});
+
+JQuery.ready do
+  JQuery.get("#orderedlist").addClass("red")
+end.to_jquery
+
+$(document).ready(function() {
+  $("#orderedlist").addClass("red");
+});
+
+JQuery.ready do
+  JQuery.get("#orderedlist li:last").hover do |this|
+    this[:on] = this.addClass("green");
+    this[:off] = this.addClass("green");
+  end
+end.to_jquery
+
+$(document).ready(function() {
+   $("#orderedlist li:last").hover(function() {
+     $(this).addClass("green");
+   },function(){
+     $(this).removeClass("green");
+   });
+});
+
+JQuery.ready do
+  JQuery.get("#orderedlist").find("li").each { |li| li.append( " BAM! ") }
+end.to_jquery
+
+$(document).ready(function() {
+  $("#orderedlist").find("li").each(function(i) {
+    $(this).append( " BAM! " + i );
+  });
+});
