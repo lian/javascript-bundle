@@ -1,0 +1,13 @@
+name: jquery.fancybox
+desc: simple and fancy jQuery plugin
+dependencies: 
+ - jquery
+ - jquery.pngFix
+ - jquery.metadata.js
+homepage: http://fancy.klade.lv/
+versions:
+ - "1.0"
+env:
+ dev:
+  - fancybox.css
+  - fancybox-min.js
