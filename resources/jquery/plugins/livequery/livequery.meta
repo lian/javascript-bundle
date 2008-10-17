@@ -1,0 +1,10 @@
+name: jquery.livequery
+desc: Live Query utilizes the power of jQuery selectors by binding events or firing callbacks for matched elements auto-magically, even after the page has been loaded and the DOM updated.
+dependencies: 
+ - jquery >= 1.1.3
+homepage: http://brandonaaron.net/docs/livequery/
+versions:
+ - 1.0.2
+env:
+ dev:
+  - livequery.js
