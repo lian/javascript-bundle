@@ -1,0 +1,11 @@
+name: bluff
+desc: Bluff is a JavaScript port of the Gruff graphing library for Ruby. It is designed to support all the features of Gruff with minimal dependencies; the only third-party scripts you need to run it are a copy of JS.Class  (about 2kb gzipped) and a copy of Google’s ExCanvas to support canvas in Internet Explorer. Both these scripts are supplied with the Bluff download. Bluff itself is around 8kb gzipped.
+dependencies:
+ - js.class
+ - explorercanvas
+homepage: http://bluff.jcoglan.com
+versions:
+ - 0.3.4.1
+env:
+ dev:
+  - bluff-min.js
