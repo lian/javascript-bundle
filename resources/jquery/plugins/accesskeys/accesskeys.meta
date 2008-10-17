@@ -2,7 +2,7 @@ name: jquery.accesskeys
 desc: This function allows the binding of certain functions to a user defined key combination.similar to the accesskey property of the hyperlinks.
 dependencies: 
  - jquery
-homepage: http://jquery.andreaseberhard.de/pngFix/
+homepage: http://jqueryjs.googlecode.com/svn/trunk/plugins/accesskey/
 versions:
  - trunk
 env:
