@@ -1,0 +1,10 @@
+name: jquery.jnice
+desc: Create custom looking form elements, that function like normal form elements
+dependencies: 
+ - jquery
+homepage: http://plugins.jquery.com/project/jNice
+versions:
+ - "0.2.2"
+env:
+ dev:
+  - jquery.jNice.js
