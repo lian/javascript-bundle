@@ -1,0 +1,9 @@
+name: dojo
+desc: dojo
+dependencies: []
+homepage: http://www.dojotoolkit.org
+versions:
+ - 2.2
+env:
+ dev:
+  - dojo.js
