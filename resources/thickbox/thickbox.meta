@@ -1,0 +1,11 @@
+name: thickbox
+desc: ThickBox is a webpage UI dialog widget written in JavaScript on top of the jQuery library. Its function is to show a single image, multiple images, inline content, iframed content, or content served through AJAX in a hybrid modal.
+dependencies: 
+ - jquery
+homepage: http://jquery.com/demo/thickbox/
+versions:
+ - 3.1
+env:
+ dev:
+  - thickbox.css
+  - thickbox-min.js
