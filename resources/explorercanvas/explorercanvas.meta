@@ -1,0 +1,9 @@
+name: explorercanvas
+desc: Firefox, Safari and Opera 9 support the canvas tag to allow 2D command-based drawing. ExplorerCanvas brings the same functionality to Internet Explorer. To use, web developers only need to include a single script tag in their existing web pages.
+dependencies: []
+homepage: http://code.google.com/p/explorercanvas/
+versions:
+ - trunk
+env:
+ dev:
+  - excanvas.js
