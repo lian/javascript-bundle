@@ -1,0 +1,10 @@
+name: jquery.metadata
+desc: This plugin is capable of extracting metadata from classes, random attributes, and child elements.
+dependencies: 
+ - jquery
+homepage: http://plugins.jquery.com/project/metadata
+versions:
+ - r3620
+env:
+ dev:
+  - metadata-min.js
