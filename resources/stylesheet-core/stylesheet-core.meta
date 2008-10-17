@@ -1,0 +1,13 @@
+name: stylesheet-core
+desc: useful stylesheets bundle
+dependencies: []
+versions:
+ - trunk
+env:
+ dev:
+  - reset.css
+  - fixes.css
+ reset:
+  - reset.css
+ fixes:
+  - fixes.css
