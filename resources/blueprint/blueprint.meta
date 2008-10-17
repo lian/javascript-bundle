@@ -1,0 +1,7 @@
+name: blueprint-css
+desc: This is a CSS framework designed to cut down on your CSS development time. It gives you a solid foundation to build your own CSS on.
+dependencies: []
+homepage: http://www.blueprintcss.org/
+github: http://github.com/joshuaclayton/blueprint-css
+versions:
+ - 0.7.1
