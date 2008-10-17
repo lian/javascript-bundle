@@ -1,0 +1,9 @@
+name: growl
+desc: growl-like notify messages
+dependencies: 
+ - extjs
+versions:
+ - trunk
+env:
+ dev:
+  - growl.js
