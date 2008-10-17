@@ -1,0 +1,9 @@
+name: mootools
+desc: "MooTools is a compact, modular, Object-Oriented JavaScript framework designed for the intermediate to advanced JavaScript developer. It allows you to write powerful, flexible, and cross-browser code with its elegant, well documented, and coherent API. - MooTools code respects strict standards and doesn't throw any warnings. It's extensively documented and has meaningful variable names: a joy to browse and a snap to understand."
+dependencies: []
+homepage: http://mootools.net
+versions:
+ - 1.2
+env:
+ dev:
+  - mootools-min.js
