@@ -1,0 +1,25 @@
+name: scriptaculous
+desc: script.aculo.us provides you with easy-to-use, cross-browser user interface JavaScript libraries to make your web sites and web applications fly.
+dependencies:
+ - prototype
+homepage: http://script.aculo.us/
+versions:
+ - 1.0
+ - 1.5
+ - 1.6
+ - 1.7
+ - 1.8
+ - 1.8.1
+env:
+ dev:
+  - builder.js
+  - controls.js
+  - dragdrop.js
+  - effects.js
+  - scriptaculous.js
+  - slider.js
+  - sound.js
+ unittest:
+  - unittest.js
+ sound:
+  - sound.js
