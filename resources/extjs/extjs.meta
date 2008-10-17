@@ -1,0 +1,12 @@
+name: extjs
+desc: "Ext JS is a cross-browser JavaScript library for building rich internet applications. - High performance, customizable UI widgets, Well designed and extensible Component model, An intuitive, easy to use API, Commercial and Open Source licenses available"
+dependencies: []
+homepage: http://extjs.com/products/extjs/
+versions:
+ - 2.2
+env:
+ dev:
+  - resources/css/ext-all.css
+  - adapter/ext-base.js
+  - ext-core.js
+  - ext-all.js
