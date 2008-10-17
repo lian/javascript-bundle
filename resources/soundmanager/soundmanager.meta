@@ -1,0 +1,9 @@
+name: soundmanager
+desc: SoundManager 2 makes MP3s playable using Javascript. It seamlessly wraps and extends Flash's audio capabilities behind the scenes, providing a solid Javascript API. Ideally, it helps people like you to make cool stuff.
+dependencies: []
+homepage: http://www.schillmania.com/projects/soundmanager2/
+versions:
+ - 2.8.0
+env:
+ dev:
+  - soundmanager2-min.js
