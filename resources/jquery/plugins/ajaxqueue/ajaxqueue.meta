@@ -1,0 +1,10 @@
+name: jquery.ajaxqueue
+desc: Ajax Queue is a plugin that helps to manage Ajax race conditions. When multiple Ajax requests are made in rapid succession, the results can be returned out of order. This can cause weird behavior in your application. Ajax Queue is a plugin (actually, 2 plugins) that provide a way to manage these requests.
+dependencies: 
+ - jquery
+homepage: http://plugins.jquery.com/project/ajaxqueue
+versions:
+ - "1.0"
+env:
+ dev:
+  - jquery.ajaxqueue-min.js
