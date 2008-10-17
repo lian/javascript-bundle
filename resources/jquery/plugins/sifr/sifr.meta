@@ -1,0 +1,11 @@
+name: jquery.sifr
+desc: The jQuery sIFR Plugin is an addon for jQuery that makes it easy to replace text in a web page with flash text (sIFR). 
+dependencies: 
+ - jquery
+ - jquery.flash
+homepage: http://jquery.thewikies.com/sifr/
+versions:
+ - "2.0"
+env:
+ dev:
+  - jquery.sifr-min.js
