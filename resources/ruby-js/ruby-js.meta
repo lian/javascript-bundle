@@ -1,0 +1,9 @@
+name: ruby-js
+desc: Ruby <--> Javascript helpers ( Ext::Javascript.rb_init )
+dependencies: 
+ - extjs
+versions:
+ - trunk
+env:
+ dev:
+  - ruby-js.js
