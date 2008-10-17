@@ -1,0 +1,11 @@
+name: jsunittest
+desc: This JavaScript project provides a one-file JavaScript test suite. - This is based off unittest.js from prototype.js, except this library has no dependencies.
+dependencies: []
+homepage: http://jsunittest.com/
+github: http://github.com/drnic/jsunittest
+versions:
+ - 0.7.2
+env:
+ dev:
+  - jsunittest.css
+  - jsunittest.js
