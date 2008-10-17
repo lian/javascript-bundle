@@ -1,0 +1,11 @@
+name: js.class
+desc: JS.Class is a library designed to facilitate object-oriented development in JavaScript. It implements Ruby’s core object, module and class system and some of its metaprogramming facilities, giving you a powerful base to build well-structured OO programs.
+dependencies: []
+homepage: http://jsclass.jcoglan.com/
+versions:
+ - 1.6.2
+ - 2.0.2
+env:
+ dev:
+  - min/class.js
+  - min/ruby.js

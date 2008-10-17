@@ -1,0 +1,1 @@
+JS.Comparable=JS.Module({extend:{compare:function(a,b){return a.compareTo(b)}},lt:function(a){return this.compareTo(a)==-1},lte:function(a){return this.compareTo(a)<1},gt:function(a){return this.compareTo(a)==1},gte:function(a){return this.compareTo(a)>-1},eq:function(a){return this.compareTo(a)==0},between:function(a,b){return this.gte(a)&&this.lte(b)}});

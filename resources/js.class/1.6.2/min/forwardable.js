@@ -1,0 +1,1 @@
+JS.Forwardable=JS.Module({defineDelegator:function(b,d,e){e=e||d;this.instanceMethod(e,function(){var a=this[b],c=a[d];return Function.is(c)?c.apply(a,arguments):c})},defineDelegators:function(){var a=Array.from(arguments),c=a.shift();for(var b=0,d=a.length;b<d;b++)this.defineDelegator(c,a[b])}});
