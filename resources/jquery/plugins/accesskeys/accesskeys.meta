@@ -1,0 +1,10 @@
+name: jquery.accesskeys
+desc: This function allows the binding of certain functions to a user defined key combination.similar to the accesskey property of the hyperlinks.
+dependencies: 
+ - jquery
+homepage: http://jquery.andreaseberhard.de/pngFix/
+versions:
+ - trunk
+env:
+ dev:
+  - jquery.accesskeys.js
