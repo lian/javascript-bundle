@@ -1,0 +1,9 @@
+name: fadergroup
+desc: Simple class to cycle through a set of elements.
+dependencies:
+ - jQuery >= 1.2.1
+versions:
+ - trunk
+env:
+ dev:
+  - fadergroup.js
