@@ -1,0 +1,10 @@
+name: jquery.cookie
+desc: A simple, lightweight utility plugin for reading, writing and deleting cookies.
+dependencies: 
+ - jquery
+homepage: http://plugins.jquery.com/project/Cookie
+versions:
+ - "1.0"
+env:
+ dev:
+  - jquery.cookie.js
