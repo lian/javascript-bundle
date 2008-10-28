@@ -1,0 +1,11 @@
+name: jquery.mousewheel
+desc: Adds mouse wheel support for your application! Just call mousewheel to add the event and call unmousewheel to remove the event.
+dependencies: 
+ - jquery >= 1.0.3
+homepage: http://plugins.jquery.com/project/mousewheel
+versions:
+ - 2.2
+ - 3.0
+env:
+ dev:
+  - jquery.mousewheel.min.js
