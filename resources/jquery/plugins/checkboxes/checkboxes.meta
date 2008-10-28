@@ -1,0 +1,10 @@
+name: jquery.checkboxes
+desc: Various plugins for working with checkboxes.
+dependencies: 
+ - jquery
+homepage: http://www.texotela.co.uk/code/jquery/checkboxes/
+versions:
+ - "r5914"
+env:
+ dev:
+  - jquery.checkboxes.min.js
