@@ -1,0 +1,10 @@
+name: jquery.blockUI
+desc: "Simple 'Please Wait' functionality. blockUI provides a mechanism for blocking user interaction with a page (or parts of a page). This can be an effective way to simulate synchronous behavior during ajax operations without locking the browser. It will prevent user operations for the current page while it is active and will return the page to normal when it is deactivated."
+dependencies: 
+ - jquery
+homepage: http://malsup.com/jquery/block
+versions:
+ - "1.33"
+env:
+ dev:
+  - jquery.blockUI.js
