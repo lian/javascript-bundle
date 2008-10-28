@@ -1,0 +1,10 @@
+name: jquery.maphilight
+desc: maphilight applies to images with a 'usemap' attribute, and outlines the areas defined in their map on mouseover.
+dependencies: 
+ - jquery
+homepage: http://davidlynch.org/js/maphilight/docs/
+versions:
+ - 1.1
+env:
+ dev:
+  - jquery.maphilight.min.js
