@@ -7,6 +7,7 @@ versions:
 env:
  dev:
   - processing.js
+  - processing-init.js
 github:
  source: jeresig/processing-js/tree/master
  commit: f90c8d093812c5dc2f73c4ac6055097abb76c4e2
