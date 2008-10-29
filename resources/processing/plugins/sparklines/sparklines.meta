@@ -1,0 +1,13 @@
+name: sparklines
+desc: sparklines.js is a simple javascript utility for building sparklines. It has support for displaying lines at percentage points and at fixed values in terms of your data set.
+dependencies: 
+ - processing
+homepage: http://www.willarson.com/code/sparklines/sparklines.html
+versions:
+ - master
+env:
+ dev:
+  - sparklines.min.js
+github:
+ source: lethain/sparklines.js/tree/master
+ commit: 8b02f9e6189b25f3434f8c8823f3dbddfb8148e3
