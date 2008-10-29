@@ -1,0 +1,9 @@
+name: processing
+desc: A port of the Processing visualization language to JavaScript.
+dependencies: []
+homepage: http://ejohn.org/blog/processingjs/
+versions:
+ - master
+env:
+ dev:
+  - processing.js
