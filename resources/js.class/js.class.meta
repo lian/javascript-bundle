@@ -9,3 +9,6 @@ env:
  dev:
   - min/class.js
   - min/ruby.js
+github:
+ source: jcoglan/js.class/tree/master
+ commit: eeb0bcc54bb8565b9289ce8ec2a174bee7174255
