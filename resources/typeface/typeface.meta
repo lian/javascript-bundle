@@ -1,0 +1,9 @@
+name: typeface
+desc: typeface.js - Rendering text with Javascript, Canvas and VML
+dependencies: []
+homepage: http://typeface.neocracy.org/
+versions:
+ - 0.10
+env:
+ dev:
+  - typeface.js

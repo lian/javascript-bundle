@@ -1,0 +1,18 @@
+name: optimer.typeface
+desc: "'Optimer' font for typeface.js"
+dependencies: 
+ - typeface
+homepage: http://typeface.neocracy.org/font_family.html?ready_font_id=optimer
+versions:
+ - mastser
+env:
+ dev:
+  - optimer_regular.typeface.js
+ regular:
+  - optimer_regular.typeface.js
+ bold:
+  - optimer_bold.typeface.js
+ bold_italic:
+  - optimer_bold_italic.typeface.js
+ italic:
+  - optimer_italic.typeface.js
