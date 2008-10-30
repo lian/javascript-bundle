@@ -7,3 +7,9 @@ versions:
 env:
  dev:
   - mootools-min.js
+  - mootools-more-min.js
+ core:
+  - mootools-min.js
+ more:
+  - mootools-min.js
+  - mootools-more-min.js

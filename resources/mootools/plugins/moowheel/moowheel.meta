@@ -1,0 +1,11 @@
+name: moowheel
+desc: "a javascript connections visualization library"
+dependencies: 
+ - mootools
+ - canvastext
+homepage: http://www.unwieldy.net/projects/moowheel/
+versions:
+ - 0.2
+env:
+ dev:
+  - moowheel.js
