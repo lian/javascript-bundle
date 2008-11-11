@@ -38,9 +38,9 @@ class JavascriptLibrary
     File.readlines(file) if File.exists?(file)
   end
 
-  def build_require_html(file_list)
+  def build_require_html(file_list, path_prefix="/javascript-bundle")
     file_list.collect { |file_path|
-      file_path = "/javascript-bundle/#{name}/#{latest_version}/#{file_path}"
+      file_path = "#{path_prefix}/#{name}/#{latest_version}/#{file_path}"
       case File.extname file_path
         when ".js"
           %{<script src="#{file_path}" type="text/javascript"></script>}
@@ -52,14 +52,20 @@ class JavascriptLibrary
     }.join("\n")
   end
 
-  def render_html(env="dev")
-    set_env(env)
+  def render_html(renderer_env=:development)
+    set_env "dev"
     if @meta['env']
       if file_list = @meta['env'][@env]
-        build_require_html file_list
+        case renderer_env
+        when :production
+          build_require_html file_list, "js" # rewrite /javascript-bundle/ path to js/
+        else
+          build_require_html file_list
+        end
       end
     end
   end
+
 end
 
 class JavascriptRequire

@@ -5,9 +5,9 @@ module Backend
   module Sinatra
     def self.init
       
-      get "/javascript-bundle/:name/*" do
-        if lib = JavascriptBundle.find(params[:name])
-          file_path = params[:splat].first
+      get "/javascript-bundle/*/*" do
+        if lib = JavascriptBundle.find(params[:splat][0])
+          file_path = params[:splat][1]
           
           unless file_path.empty?
             case file_path.split(".").last
