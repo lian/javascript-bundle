@@ -12,7 +12,7 @@ netgeek.osdetect = function() {
 	var os_name;
 	var os_flavor;
 	var os_sp;
-	var os_lang = "English";
+	var os_lang;
 	var browser_name;
 	var browser_version;
 	var useragent = navigator.userAgent;
@@ -69,7 +69,6 @@ netgeek.osdetect = function() {
 		version = ScriptEngineMajorVersion().toString();
 		version += ScriptEngineMinorVersion().toString();
 		version += ScriptEngineBuildVersion().toString();
-		document.write("ScriptEngine: "+version+"<br />");
 		switch (version){
 			case "514615":
 				os_flavor = "2000";
@@ -140,17 +139,14 @@ netgeek.osdetect = function() {
 
 	if (navigator.systemLanguage) {
 		// ie
-		version = navigator.systemLanguage; 
+		os_lang = navigator.systemLanguage;
 	} else if (navigator.language) {
 		// gecko derivatives
-		version = navigator.language; 
+		os_lang = navigator.language; 
 	} else {
-		// some other browser and we don't know how to get the language, so
-		// just guess english 
-		version = "en"; 
+		// some other browser and we don't know how to get the language, so just guess english
+		os_lang = "en"; 
 	}
-
-	os_lang = version;
 
 	version = navigator.platform;
 	if ( ("Win32" == version) || (version.match(/i.86/)) ) { arch = "x86"; }

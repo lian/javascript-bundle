@@ -1,10 +1,10 @@
 name: jquery.flash
 desc: A jQuery plugin for embedding Flash movies.
 dependencies: 
- - jquery
+ - jquery >= 1.0.3
 homepage: http://jquery.lukelutman.com/plugins/flash
 versions:
- - "1.0"
+ - "1.0.1"
 env:
  dev:
   - jquery.flash-min.js
