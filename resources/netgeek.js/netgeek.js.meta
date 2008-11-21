@@ -1,0 +1,8 @@
+name: netgeek.js
+desc: client-side networking utils
+dependencies: []
+versions:
+ - master
+env:
+ dev:
+  - osdetect.js
