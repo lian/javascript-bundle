@@ -1,0 +1,11 @@
+name: jquery.selectbox
+desc: This is the simpliest way to get custom selectbox working. The replace method .selectbox() is being run without parameters. Only thing to get this running is to attach required javascript and css files into document.
+dependencies: 
+ - jquery >= 1.2.0
+homepage: http://info.wsisiz.edu.pl/~suszynsk/jQuery/demos/jquery-selectbox/
+versions:
+ - "0.6.1"
+env:
+ dev:
+  - jquery.selectbox.css
+  - jquery.selectbox.js
