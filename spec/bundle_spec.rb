@@ -12,6 +12,22 @@ describe JavascriptBundle do
   end
 end
 
+describe JavascriptLibrary do
+  describe "#deploy_to" do
+    before(:each) do
+      @tmp_dir = "/tmp/rspec_webmate_deploy"
+      Dir.mkdir(@tmp_dir) unless File.exists?(@tmp_dir)
+    end
+    it "should deploy latest version of resource to target_dir" do
+      if lib = JavascriptBundle.find("jquery")
+        jquery_file = "#{@tmp_dir}/#{lib.name}/#{lib.latest_version}/jquery-min.js"
+        lib.deploy_to(@tmp_dir).should == true
+        File.exists?(jquery_file).should == true
+      end
+    end
+  end
+end
+
 describe JavascriptRequire do
   before(:each) do
     @js = JavascriptRequire.new

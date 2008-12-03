@@ -29,7 +29,7 @@ class JavascriptLibrary
   def desc;@meta['desc'];end
   def dependencies;@meta['dependencies'];end
   def versions;@meta['versions'];end
-  def latest_version;versions.last;end
+  def latest_version;versions.last.to_s.split(" ").first;end
   def set_env(env); @env ||= env; end
   def set_env!(env); @env = env; end
 
@@ -66,6 +66,15 @@ class JavascriptLibrary
     end
   end
 
+  def deploy_to(target_path) # works, but ugly - refactor!
+    raise "deploy_target not found" unless File.exists?(target_path)
+    target_lib_path = "#{target_path}/#{name}/#{latest_version}"; 
+    Dir.mkdir(target_path+"/#{name}") unless File.exists?(target_path+"/#{name}")
+    Dir.mkdir(target_lib_path) unless File.exists?(target_lib_path)
+    Dir["#{@path}/#{latest_version}/*"].each { |file|
+      FileUtils.cp_r file, "#{target_lib_path}/#{File.basename file}"
+    };true
+  end
 end
 
 class JavascriptRequire
