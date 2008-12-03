@@ -1,0 +1,9 @@
+name: yui
+desc: The Yahoo! User Interface Library (YUI)
+dependencies: []
+homepage: http://developer.yahoo.com/yui/
+versions:
+ - 2.6.0
+env:
+ dev:
+  - yahoo-min.js
