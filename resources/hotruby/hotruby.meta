@@ -1,0 +1,9 @@
+name: hotruby
+desc: HotRuby is Ruby on JavaScript and Flash. HotRuby runs Ruby source code on a web browser and Flash. HotRuby runs opcode, compiled by YARV(Yet Another Ruby VM) on Ruby.
+dependencies: []
+homepage: http://hotruby.yukoba.jp/
+versions:
+ - trunk
+env:
+ dev:
+  - hotruby.js
