@@ -1,0 +1,10 @@
+name: jquery.equalheights
+desc: Compares the heights or widths of the top-level children of a provided element and sets their min-height to the tallest height (or width to widest width). Sets in em units by default if pxToEm() method is available.
+dependencies: 
+ - jquery
+homepage: http://www.filamentgroup.com/lab/setting_equal_heights_with_jquery/
+versions:
+ - "2.0"
+env:
+ dev:
+  - equalheights.js
